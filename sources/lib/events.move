@@ -14,7 +14,6 @@ module suilette::events {
         bet_size: u64,
         player: address,
     }
-
     public(friend) fun emit_place_bet<T>(
         bet_id: ID,
         bet_type: u8,
